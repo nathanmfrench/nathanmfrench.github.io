@@ -1098,20 +1098,15 @@ section .container {
 }
 
 .background-expertise {
-  background-color: #1c7d32;
   padding: 20px;
-  border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .background-expertise h4 {
-  color: #1c7d32; /* Changed to the requested green color */
+  color: #1c7d32; /* Green color for the title */
   margin-bottom: 15px;
-  background-color: #ffffff; /* Adding a white background to the heading */
-  padding: 5px 10px; /* Adding some padding for better visibility */
-  display: inline-block; /* Makes the background only as wide as the text */
-  border-radius: 3px; /* Optional: rounds the corners of the white background */
+  font-weight: bold; /* Make the title bold for emphasis */
 }
 
 .background-expertise ul {
@@ -1120,7 +1115,7 @@ section .container {
 }
 
 .background-expertise li {
-  color: #ffffff;
+  color: #fff; /* Assuming you want to keep the text white, adjust if needed */
   margin-bottom: 10px;
 }
 
@@ -1131,4 +1126,5 @@ section .container {
 
 .background-expertise i {
   margin-right: 10px;
+  color: #1c7d32; /* Make the icons green as well for consistency */
 }
