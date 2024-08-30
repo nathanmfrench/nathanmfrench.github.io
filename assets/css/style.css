@@ -1096,3 +1096,34 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.background-expertise {
+  background-color: #1c7d32; /* Using the green color found in other parts of your CSS */
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.background-expertise h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.background-expertise ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.background-expertise li {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.background-expertise .nested-list {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.background-expertise i {
+  margin-right: 10px;
+}
