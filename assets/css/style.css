@@ -1096,3 +1096,39 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.background-expertise {
+  background-color: #1c7d32;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.background-expertise h4 {
+  color: #1c7d32; /* Changed to the requested green color */
+  margin-bottom: 15px;
+  background-color: #ffffff; /* Adding a white background to the heading */
+  padding: 5px 10px; /* Adding some padding for better visibility */
+  display: inline-block; /* Makes the background only as wide as the text */
+  border-radius: 3px; /* Optional: rounds the corners of the white background */
+}
+
+.background-expertise ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.background-expertise li {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.background-expertise .nested-list {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.background-expertise i {
+  margin-right: 10px;
+}
